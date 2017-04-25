@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Disk\Enum]
+"0"="IDE\\Disk_IDE_Hard_Drive___________00000001\\3030303030303030303030303030303030303130"
+"Count"=dword:00000001
+"NextInstance"=dword:00000001
