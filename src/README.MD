@@ -11,4 +11,4 @@ C code has been compiled with `TCC: Tiny C Compiler` at http://bellard.org/tcc/
   
 
 ## Extra Files
-- `FixDisk.reg` Fixes registry entry to remove VMware drive type
+- `FixDisk.reg` Fixes registry entry to remove VMware drive type. You'll need to run this inside your running virtual machine.
