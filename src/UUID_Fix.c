@@ -40,7 +40,7 @@ TODO - Use other OUI's besides  00:50:56   <-- already programmed
 
 void rand_hex(char * str, unsigned long len)
 {
-srand((unsigned int) time(0));	// seed number for rand
+srand((unsigned int) time(0));			// seed number for rand
    
 const char *chars = "01a2b3c4d5e6f789";		//char map for hex digits
 unsigned int max = strlen( chars );
@@ -55,9 +55,9 @@ str[ i ] = '\0';
 
 void rand_0123(char * str, unsigned long len)
 {
-srand((unsigned int) time(0));	// seed number for rand
+srand((unsigned int) time(0));		// seed number for rand
    
-const char *chars = "0123";	 //char map for hex digits XX, first X digit between 0 and 3
+const char *chars = "0123";	 	//char map for hex digits XX, first X digit between 0 and 3
 unsigned int max = strlen( chars );
 unsigned long i = 0L;
 
